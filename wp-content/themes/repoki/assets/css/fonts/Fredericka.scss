@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 500;
+    font-size: 5.5em;
+    //padding-top: 1.4em;
+    background-color: #ffffff;
+    text-align: center !important;
+    padding: 0.6em;
+    margin: 0;
+}
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    padding: 1em;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 200;
+}
+.has-background .has-medium-font-size .partner{
+    font-family: 'Fredericka the Great', cursive !important;
+}

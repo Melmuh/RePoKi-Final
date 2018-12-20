@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel");@import url("https://fonts.googleapis.com/css?family=Questrial");@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");@import url("https://fonts.googleapis.com/css?family=Parisienne");header{margin-top:-0.5em;padding:1em;background-color:#e0eee0;color:black;height:6em}
+.container-fluid{background:0}
+nav{width:100%;margin:0 auto;background:#fff;padding:0 !important;-webkit-box-shadow:0 5px 0 #dedede;box-shadow:0 5px 0 #dedede}
+nav a.icon{display:none}
+nav ul{list-style:none;text-align:center;padding:0 !important}
+nav ul li{display:inline-block}
+nav ul li a{display:block;padding:15px;text-decoration:none;color:#aaa;font-weight:800;text-transform:uppercase;margin:0 10px}
+nav ul li a,nav ul li a:after,nav ul li a:before,nav.woocommerce-MyAccount-navigation ul li a,nav.woocommerce-MyAccount-navigation ul li a:after,nav.woocommerce-MyAccount-navigation ul li a:before,a.checkout-button.button.alt.wc-forward,a.checkout-button.button.alt.wc-forward:after,a.checkout-button.button.alt.wc-forward::before,a.shipping-calculator-button,a.shipping-calculator-button:after,a.shipping-calculator-button:before,button.button{-webkit-transition:all .5s;transition:all .5s}
+nav.fill ul li a,nav.woocommerce-MyAccount-navigation ul li a,a.checkout-button.button.alt.wc-forward,a.shipping-calculator-button,button.button{position:relative}
+nav.fill ul li a:after,nav.woocommerce-MyAccount-navigation ul li a:after,a.checkout-button.button.alt.wc-forward:after,a.shipping-calculator-button::after,button.button:after{position:absolute;bottom:0;left:0;right:0;margin:auto;margin-left:0 !important;width:0;content:'.';color:transparent;background:#aaa;height:1px}
+nav.fill ul li a,nav.woocommerce-MyAccount-navigation ul li a,a.checkout-button.button.alt.wc-forward,a.shipping-calculator-button,button.button{-webkit-transition:all 2s;transition:all 2s}
+nav.fill ul li a:after,nav.woocommerce-MyAccount-navigation ul li a:after,a.checkout-button.button.alt.wc-forward:after,a.shipping-calculator-button:after,button.button:after{text-align:left;content:'.';margin:0;opacity:0}
+nav.fill ul li a:hover,nav.woocommerce-MyAccount-navigation ul li a:hover,a.checkout-button.button.alt.wc-forward:hover,a.shipping-calculator-button:hover,button.button:hover{color:#000;z-index:1}
+nav.fill ul li a:hover:after,nav.woocommerce-MyAccount-navigation ul li a:hover:after,a.checkout-button.button.alt.wc-forward:hover:after,a.shipping-calculator-button:hover:after,button.button:hover:after{z-index:-10;animation:fill 1s forwards;-webkit-animation:fill 1s forwards;-moz-animation:fill 1s forwards;opacity:1}
+html{max-width:2100px;min-width:300px;width:100%;margin:0 !important}
+body{margin:0 !important;overflow-x:hidden}
+.site-content-contain{margin-left:auto;margin-right:auto;width:1200px;background-image:url(http://localhost/repoki/wp-content/themes/repoki/assets/img/background-min.jpg);background-repeat:no-repeat;background-position:center;background-attachment:fixed;background-size:cover}
+.wp-block-column{margin-left:auto;margin-right:auto !important;padding:2em;font-family:'Questrial',sans-serif;line-height:2.5em;border-color:#fff;border-style:ridge;margin-top:10em}
+.wp-block-quote{font-family:'Fredericka the Great',cursive;font-weight:400;margin-top:2em;font-size:25pt;line-height:25pt;background:#fff;padding:.8em 0;border-color:#fff;border-style:groove}
+.img-header{width:100%;height:auto}
+.wp-block-image{max-width:100%;margin-top:10em 0}
+form.wpcf7-form{background:white;padding:.5em 2em;font-size:15pt}
+form.wpcf7-form input{height:2em;width:100%;font-family:'Questrial',sans-serif;font-size:14pt}
+form.wpcf7-form textarea{height:15em;width:100%;font-family:'Questrial',sans-serif;font-size:14pt}
+form.wpcf7-form input[type="checkbox" i]{width:7%}
+form.wpcf7-form input[type="submit" i]{font-family:'Fredericka the Great',cursive;color:black;font-size:18pt;font-weight:400}
+h2,h3,h4,h5,h6{font-family:'Cinzel',serif;margin:0}
+h1{font-family:'Fredericka the Great',cursive;font-weight:500;font-size:5.5em;background-color:#fff;text-align:center !important;padding:.6em;margin:0}
+h2{font-family:'Fredericka the Great',cursive;padding:1em;text-align:center;font-size:25pt;font-weight:200}
+.has-background .has-medium-font-size .partner{font-family:'Fredericka the Great',cursive !important}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce{background-color:#fff;font-family:'Questrial',sans-serif}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce nav.woocommerce-MyAccount-navigation{width:100% !important}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce nav.woocommerce-MyAccount-navigation ul li a{font-family:'Fredericka the Great',cursive;color:black;font-size:14pt;font-weight:200}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce .woocommerce-MyAccount-content{font-size:16pt;color:black;width:90% !important;text-align:justify;margin:0 2em}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce .woocommerce-MyAccount-content a{color:black}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce .woocommerce-MyAccount-content a:hover,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce .woocommerce-MyAccount-content a:visited,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce .woocommerce-MyAccount-content a:active{color:black}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce #account_first_name,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce #account_last_name,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce #account_display_name,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce #account_email,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce #password_current,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce #password_1,.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce #password_2{height:2em !important;font-family:'Questrial',sans-serif;font-size:14pt}
+.wp-block-columns.has-1-columns.wp-block-column-konto .wp-block-column .woocommerce button.woocommerce-Button.button{font-family:'Fredericka the Great',cursive;color:black;font-size:18pt;font-weight:400}
+.woocommerce form.woocommerce-cart-form{background-color:#fff}
+.woocommerce form.woocommerce-cart-form input#coupon_code.input-text{width:107px !important;margin:4px 4px 0 0}
+.woocommerce form.woocommerce-cart-form td.product-name a,.woocommerce form.woocommerce-cart-form a:visited,.woocommerce form.woocommerce-cart-form a:active{color:black;text-decoration:none}
+.woocommerce form.woocommerce-cart-form button.button{font-family:'Fredericka the Great',cursive;color:black;font-size:12pt;font-weight:200;background-color:#fff}
+.woocommerce .cart-collaterals .cart_totals{background:#fff;width:100%}
+.woocommerce .cart-collaterals .cart_totals a.shipping-calculator-button{font-family:'Fredericka the Great',cursive;color:black;font-size:12pt;font-weight:200;text-decoration:none}
+.woocommerce .cart-collaterals .cart_totals button.button{font-family:'Fredericka the Great',cursive;color:black;font-size:18pt;font-weight:400;background-color:#fff}
+.woocommerce a.checkout-button.button.alt.wc-forward{font-family:'Fredericka the Great',cursive;color:black;font-size:18pt;font-weight:400;background-color:#fff}
+.woocommerce a,.woocommerce :active,.woocommerce :visited{color:black;text-decoration:none}
+.woocommerce .woocommerce-info::before{color:black}
+.woocommerce .woocommerce-info{border-top-color:#e0eee0;background:#fff}
+.woocommerce .woocommerce-form-coupon-toggle{background:#fff}
+.woocommerce .col-1{background-color:#fff;width:100% !important;padding:.3em}
+.woocommerce .col-1 .woocommerce-billing-fields h3{font-family:'Fredericka the Great',cursive;color:black;font-size:16pt;font-weight:200;text-align:center}
+.woocommerce .col-2{background-color:#fff;width:100% !important;padding:.3em;float:left !important;margin-top:1em}
+.woocommerce .col-2 h3#ship-to-different-address{font-family:'Fredericka the Great',cursive;color:black;font-size:16pt;font-weight:200;width:100% !important;padding-left:1em}
+.woocommerce .col-2 input[type="checkbox" i]{width:4%}
+.woocommerce .col-2 label{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;width:100%}
+.woocommerce .col-2 #order_comments{height:5em;width:100%;font-family:'Questrial',sans-serif;font-size:10pt}
+.woocommerce input{height:2em;width:100%;font-family:'Questrial',sans-serif;font-size:14pt}
+.woocommerce .checkout.woocommerce-checkout h3#order_review_heading{font-family:'Fredericka the Great',cursive;color:black;font-size:16pt;font-weight:200;width:100%;background:#fff;text-align:center}
+.woocommerce .checkout.woocommerce-checkout .woocommerce-checkout-review-order{background:#fff}
+.woocommerce .woocommerce-checkout-review-order .product-total{text-align:right}
+.woocommerce .woocommerce-checkout-review-order tfoot td{text-align:right}
+.woocommerce #payment{background:#fff}
+.woocommerce #payment input.input-radio{width:5%}
+.woocommerce #payment label{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;width:100%}
+.woocommerce #payment button.button.alt{font-family:'Fredericka the Great',cursive;color:black;font-size:16pt;font-weight:200;background-color:#fff;float:left}
+.woocommerce.columns-4{margin-left:20%;margin-right:20% !important;padding:2em;font-family:'Questrial',sans-serif;line-height:2.5em;border-color:#fff;border-style:ridge;margin-top:10em}
+.woocommerce.columns-4 .woocommerce-result-count,.woocommerce.columns-4 .products.columns-4{background-color:#fff;width:100%;padding:1em}
+@media screen and (max-width:600px){.menu a:not(:first-child){display:none}
+.menu a.icon{float:left;display:block}
+.menu.responsive{position:relative}
+.menu.responsive .icon{position:absolute;right:0;top:0}
+}@-webkit-keyframes fill{0%{width:0;height:1px}
+50%{width:100%;height:1px}
+100%{width:100%;height:100%;background:#e0eee0}
+}@keyframes fill{0%{width:0;height:1px}
+50%{width:100%;height:1px}
+100%{width:100%;height:100%;background:#e0eee0}
+}

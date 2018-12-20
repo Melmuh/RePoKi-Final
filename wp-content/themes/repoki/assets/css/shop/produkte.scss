@@ -1,0 +1,16 @@
+.woocommerce.columns-4{
+    margin-left: 20%;
+    margin-right: 20% !important;
+    padding: 2em;
+    font-family: 'Questrial', sans-serif;
+    line-height: 2.5em;
+    border-color: #fff;
+    border-style: ridge;
+    margin-top: 10em;
+    .woocommerce-result-count, .products.columns-4{
+        background-color: #fff;
+        width: 100%;
+        padding: 1em;
+    }
+
+} 

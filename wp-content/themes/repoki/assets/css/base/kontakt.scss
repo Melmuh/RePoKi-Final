@@ -1,0 +1,27 @@
+form.wpcf7-form{
+    background: white;
+    padding: 0.5em 2em;
+    font-size: 15pt;
+    input{
+        height: 2em;
+        width: 100%;
+        font-family: 'Questrial', sans-serif;
+        font-size: 14pt;
+    }
+    textarea{
+        height: 15em;
+        width: 100%;
+        font-family: 'Questrial', sans-serif;
+        font-size: 14pt;
+    }
+    input[type="checkbox" i]{
+        width: 7%;
+    }
+    input[type="submit" i]{
+        font-family: 'Fredericka the Great', cursive;
+        color: black;
+        font-size: 18pt;
+        font-weight: 400;
+    }
+
+}

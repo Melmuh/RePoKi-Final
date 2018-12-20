@@ -1,0 +1,47 @@
+.wp-block-columns.has-1-columns.wp-block-column-konto{
+    .wp-block-column{
+        //padding: 6em;
+            .woocommerce{
+                background-color: #ffffff;
+                font-family: 'Questrial', sans-serif;
+                nav.woocommerce-MyAccount-navigation{
+                    width: 100% !important;
+                    ul li a{
+                        font-family: 'Fredericka the Great', cursive;
+                        color: black;
+                        font-size: 14pt;
+                        font-weight: 200;
+                    // width: 100%;
+                        }
+                    }
+                .woocommerce-MyAccount-content{
+                    font-size: 16pt;
+                    color: black;
+                    width: 90% !important;
+                    text-align: justify;
+                    margin: 0em 2em;
+                    a{
+                        color: black;
+                        // text-decoration: none;
+                    }
+                    a:hover, a:visited, a:active{
+                        color: black;
+                        // text-decoration: none;
+                    }
+                }
+                #account_first_name, #account_last_name, 
+                #account_display_name, #account_email, 
+                #password_current, #password_1, #password_2{
+                    height: 2em !important;
+                    font-family: 'Questrial', sans-serif;
+                    font-size: 14pt;
+                }
+                button.woocommerce-Button.button{
+                    font-family: 'Fredericka the Great', cursive;
+                    color: black;
+                    font-size: 18pt;
+                    font-weight: 400;
+                }
+            }
+    }
+}

@@ -1,0 +1,47 @@
+.woocommerce{
+    form.woocommerce-cart-form{
+        background-color: #ffffff;
+        input#coupon_code.input-text{
+            width: 107px !important;
+            margin: 4px 4px 0 0;
+        }
+        td.product-name a, a:visited, a:active{
+            color: black;
+            text-decoration: none;
+        }
+        button.button{
+            font-family: 'Fredericka the Great', cursive;
+            color: black;
+            font-size: 12pt;
+            font-weight: 200;
+            background-color: #ffffff;
+        }
+    }
+
+    .cart-collaterals .cart_totals{
+        background: #ffffff;
+        width: 100%;
+        a.shipping-calculator-button{
+            font-family: 'Fredericka the Great', cursive;
+            color: black;
+            font-size: 12pt;
+            font-weight: 200;
+            text-decoration: none;
+        }
+        button.button{
+            font-family: 'Fredericka the Great', cursive;
+            color: black;
+            font-size: 18pt;
+            font-weight: 400;
+            background-color: #ffffff;
+        }
+
+    }
+    a.checkout-button.button.alt.wc-forward{
+        font-family: 'Fredericka the Great', cursive;
+        color: black;
+        font-size: 18pt;
+        font-weight: 400;
+        background-color: #ffffff;
+    }
+} 

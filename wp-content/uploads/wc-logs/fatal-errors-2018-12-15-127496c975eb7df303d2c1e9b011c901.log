@@ -1,0 +1,12 @@
+2018-12-15T12:02:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\repoki\wp-content\plugins\jetpack\modules\theme-tools\content-options.php in Zeile 42
+
+2018-12-15T12:08:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\repoki\wp-content\plugins\woocommerce\includes\log-handlers\class-wc-log-handler-file.php in Zeile 8
+
+2018-12-15T12:21:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\repoki\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-webhooks.php in Zeile 14
+
+2018-12-15T16:57:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\repoki\wp-content\plugins\better-search-replace\includes\class-bsr-i18n.php in Zeile 15
+
+2018-12-15T17:48:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\repoki\wp-admin\includes\media.php in Zeile 16
+
+2018-12-15T18:17:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\repoki\wp-content\plugins\woocommerce\includes\admin\settings\class-wc-settings-accounts.php in Zeile 10
+

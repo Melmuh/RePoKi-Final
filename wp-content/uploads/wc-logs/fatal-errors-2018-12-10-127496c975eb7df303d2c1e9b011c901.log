@@ -1,0 +1,8 @@
+2018-12-10T19:09:15+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in C:\xampp\htdocs\repoki\wp-content\themes\repoki\functions.php in Zeile 24
+
+2018-12-10T19:10:00+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in C:\xampp\htdocs\repoki\wp-content\themes\repoki\functions.php in Zeile 24
+
+2018-12-10T19:13:23+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xampp\htdocs\repoki\wp-content\themes\repoki\header.php in Zeile 37
+
+2018-12-10T19:13:34+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xampp\htdocs\repoki\wp-content\themes\repoki\header.php in Zeile 37
+

@@ -1,0 +1,147 @@
+header{
+    margin-top: -0.5em;
+    padding: 1em;
+    background-color: #E0EEE0;
+    color: black;
+    height: 6em;
+}
+
+.container-fluid{
+    background: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu a:not(:first-child) {display: none;}
+    .menu a.icon {
+      float: left;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 !important;
+    box-shadow: 0px 5px 0px #dedede;
+    a.icon{
+        display: none;
+    }
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0 !important;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before,
+  nav.woocommerce-MyAccount-navigation ul li a,
+  nav.woocommerce-MyAccount-navigation ul li a:after,
+  nav.woocommerce-MyAccount-navigation ul li a:before,
+  a.checkout-button.button.alt.wc-forward,
+  a.checkout-button.button.alt.wc-forward:after,
+  a.checkout-button.button.alt.wc-forward::before,
+  a.shipping-calculator-button,
+  a.shipping-calculator-button:after,
+  a.shipping-calculator-button:before,
+  button.button {
+    transition: all .5s;
+  }
+  
+  nav.fill ul li a,
+  nav.woocommerce-MyAccount-navigation ul li a,
+  a.checkout-button.button.alt.wc-forward,
+  a.shipping-calculator-button,
+  button.button  {
+    position: relative;
+  }
+  nav.fill ul li a:after,
+  nav.woocommerce-MyAccount-navigation ul li a:after,
+  a.checkout-button.button.alt.wc-forward:after,
+  a.shipping-calculator-button::after,
+  button.button:after  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-left: 0 !important;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+  }
+  nav.fill ul li a,
+  nav.woocommerce-MyAccount-navigation ul li a,
+  a.checkout-button.button.alt.wc-forward,
+  a.shipping-calculator-button,
+  button.button {
+    transition: all 2s;
+  }
+  nav.fill ul li a:after,
+  nav.woocommerce-MyAccount-navigation ul li a:after,
+  a.checkout-button.button.alt.wc-forward:after,
+  a.shipping-calculator-button:after,
+  button.button:after  {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+  nav.fill ul li a:hover,
+  nav.woocommerce-MyAccount-navigation ul li a:hover,
+  a.checkout-button.button.alt.wc-forward:hover,
+  a.shipping-calculator-button:hover,
+  button.button:hover {
+    color: #000;
+    z-index: 1;
+  }
+  nav.fill ul li a:hover:after,
+  nav.woocommerce-MyAccount-navigation ul li a:hover:after,
+  a.checkout-button.button.alt.wc-forward:hover:after,
+  a.shipping-calculator-button:hover:after,
+  button.button:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+  /* Keyframes */
+@keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #E0EEE0;
+    }
+  }

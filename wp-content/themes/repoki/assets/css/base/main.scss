@@ -1,0 +1,42 @@
+html{
+    max-width: 2100px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 !important;
+}
+body{
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+.site-content-contain{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-image: url(http://localhost/repoki/wp-content/themes/repoki/assets/img/background-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wp-block-column{
+    margin-left: auto;
+    margin-right: auto !important;
+    padding: 2em;
+    font-family: 'Questrial', sans-serif;
+    line-height: 2.5em;
+    border-color: #fff;
+    border-style: ridge;
+    margin-top: 10em;
+
+}
+.wp-block-quote{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    margin-top: 2em;
+    font-size: 25pt;
+    line-height: 25pt;
+    background: #fff;
+    padding: 0.8em 0;
+    border-color: #fff;
+    border-style: groove;
+}
